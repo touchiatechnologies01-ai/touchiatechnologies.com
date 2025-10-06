@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" >
+  <link rel="stylesheet" href=" accordain.css" >
+
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="location.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Keania+One&display=swap" rel="stylesheet">
+  <script defer src="location.js"></script>
+  <script defer src="index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="icon"  href="./images/logo/Touchia logo SVG.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+</head>
+
+<body>
+  <div >
+    <!-- SVG for Tech Stack cursor -->
+    <!-- <div id="svg-tech-stack">
+        <h1>
+          Ourtechnology
+        </h1>
+    </div> -->
+
+    <!-- SVG for What We Do cursor -->
+    <symbol id="svg-what-we-do" viewBox="0 0 32 32">
+        <!-- Example: Animated rectangle -->
+        <rect width="32" height="32" fill="green">
+            <animate attributeName="width" values="32;16;32" dur="1s" repeatCount="indefinite"/>
+        </rect>
+    </symbol>
+
+    <!-- SVG for Our Clients cursor -->
+    <symbol id="svg-our-clients" viewBox="0 0 32 32">
+        <!-- Example: Animated polygon -->
+        <polygon points="16,0 32,32 0,32" fill="red">
+            <animate attributeName="points" values="16,0 32,32 0,32;16,0 0,32 32,32" dur="1s" repeatCount="indefinite"/>
+        </polygon>
+    </symbol>
+  </div>
+  <div class="navbar">
+    <a href="https://touchiatechnologies.com/">
+      <div class="Logo">
+        <img class="logo-img" src="./images/logo/Touchia logo png.png" alt="">
+      </div>
+    </a>
+
+
+    <div class="menuitem">
+      
+      <div><a href="./main_what_we_do.html" id="whatWeDoLink">What We Do</a></div>
+      <div><a href="./who_we_are.html">Who We Are</a></div>
+      <div><a href="./carrier/Career.html">Career</a></div>
+      <div><a href="./contact.html">Contact Us</a></div>
+    </div>
+  </div>
+  <div class="what-we-do content " style="display: none;">
+    <div class="what-we-do-1">
+      <a href="./what_we_do/sap.html"><span>SAP(Systems Applications and Products in Data Processing.)</span></a>
+      <a href="./what_we_do/cybersecurity.html"><span>Cybersecurity</span></a>
+      <a href="./what_we_do/DataArtificial.html"><span>Data &amp; Artificial Intelligence</span></a>
+      <a href="./what_we_do/cloud.html"><span>Cloud</span></a>
+      <a href="./what_we_do/travel.html"><span>Travel</span></a>
+    </div>
+    <div class="what-we-do-1">
+      <a href="./what_we_do/MarketingExperienceSolutions.html"><span>Marketing &amp; Experience</span></a>
+      <a href="./what_we_do/sales-commarce.html"><span>Sales &amp; Commerce</span></a>
+      <a href="./what_we_do/supply-chain.html"><span>Supply Chain</span></a>
+      <a href="./what_we_do/talent-organization.html"><span>Talent &amp; Organization</span></a>
+      <a href="./what_we_do/utlites.html"><span>Utilities</span></a>
+      <a href="./what_we_do/software-platforms.html"><span>Software & Platforms</span></a>
+
+    </div>
+
+    <div class="what-we-do-1">
+      <a href="./what_we_do/automotive.html"><span>Automotive</span></a>
+      <a href="./what_we_do/banking.html"><span>Banking</span></a>
+      <a href="./what_we_do/chemicals.html"><span>Chemicals</span></a>
+      <a href="./what_we_do/communcation-media.html"><span>Communications & Media</span></a>
+      <a href="./what_we_do/natural-resources.html"><span>Natural Resources</span></a>
+      <a href="./what_we_do/retail.html"><span>Retail</span></a>
+ 
+
+    </div>
+    <div class="what-we-do-1">
+      <a href="./what_we_do/conumer-foods.html"><span>Consumer Goods & Services</span></a>
+      <a href="./what_we_do/energy.html"><span>Energy</span></a>
+      <a href="/what_we_do/health.html"><span>Health</span></a>
+      <a href="./what_we_do/high-tech.html"><span>High Tech</span></a>
+      <a href="./what_we_do/Insurance.html"><span>Insurance</span></a>
+      <a href="./what_we_do/lifesciences.html"><span>Life Sciences</span></a>
+    </div>
+  </div>
+
+  
+  </div>
+  <div class="menu-container">
+    <a href="https://touchiatechnologies.com/">
+      <div class="Logo">
+        <img class="logo-img" src="./images/logo/Touchia logo png.png" alt="">
+      </div>
+    </a>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <div class="menu" id="menu">
+        <a href="/main_what_we_do.html">What We Do</a>
+        <a href="/who_we_are.html">Who We Are</a>
+        <a href="./carrier/Career.html">Career</a>
+        <a href="/contact.html">Contact Us</a>
+    </div>
+</div>
+  <div class="main-titel">
+       <div id="title-1">
+        <span class="animated-text" data-text="Empowering Innovations ">Empowering Innovations</span>
+        <span class="animated-text" data-text=" One Touch at a Time">
+          One Touch at a Time </span>
+        <span class="animated-text" data-text="Transforming Business With"> Transforming Business  With</span>
+        <span class="animated-text" data-text=" Cutting Edge Solutions">Cutting Edge Solutions</span>
+        <span class="animated-text" data-text=" And Consulting"> And Consulting</span>
+      </div>
+  </div>
+
+  <section class="hidden">
+    <div class="our-team">
+      <h4 id="titel-2">We're a  team, each excelling in specific areas of our tech stack,working together seamlessly
+        unit.</h4>
+      <img src="./images/settings-svgrepo-com.svg" class="rotate" alt="">
+    </div>
+  </section>
+ 
+  
+
+
+  <section class="section"  id="our-team" >
+  <div class="our-experiences">
+      <div class="section-experiences">
+          <div class="image-container">
+            <img class="section-images-full" src="./images/our-team/our-team.jpg" alt="Our Team">
+            <div class="overlay-text">
+                <div>80+ Fortune Customers</div>
+                <div>100+ Talented Customers</div>
+                <div class="our-experiences-information">
+                  With over a decade of experience in IT, we deliver innovative and reliable technology solutions.
+                </div>
+            </div>
+           
+        </div>
+          
+      </div>
+
+  </div>
+  </section>
+
+  <section class="section"  id="our-sap-experties" >
+
+  
+  <div class="experience-section">
+    <div class="experience-headline">
+      <h2>Our SAP Expertise</h2>
+    </div>
+    <div class="experience-content">
+      <div class="flex-container">
+        <div class="image-box">
+          <img class="full-image" src="./images/our-team/sap_svg_bussines.svg" alt="Our Team">
+        </div>
+        <div class="details-box">
+          <div class="text-overlay">
+            <div class="experience-details">
+              With over a decade of IT experience, our company delivers innovative and reliable SAP solutions. We proudly serve more than 80 Fortune 500 companies and over 100 dynamic enterprises.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hidden Our-technlogy section" id="tech-stack">
+  <h1>
+    SAP HANA
+  </h1>
+  
+  <div class="accordion">
+    <button class="accordion-item"><span class="icon">💻</span> Programming Languages</button>
+    <div class="accordion-content">
+        <ul>
+            <li>
+                <!-- <img src="images/python-logo.png" alt="Python Logo"> -->
+                <h3>Python</h3>
+                <p>A versatile language used for web development, data analysis, and machine learning.</p>
+            </li>
+            <li>
+                <!-- <img src="images/javascript-logo.png" alt="JavaScript Logo"> -->
+                <h3>JavaScript</h3>
+                <p>The language of the web, used for front-end and back-end development.</p>
+            </li>
+            <li>
+                <!-- <img src="images/java-logo.png" alt="Java Logo"> -->
+                <h3>Java</h3>
+                <p>An object-oriented programming language used for enterprise applications.</p>
+            </li>
+            <!-- Add more programming languages as needed -->
+        </ul>
+    </div>
+</div>
+<div class="accordion">
+  <div class="accordion-content">
+      <ul>
+          <li>
+              <!-- <img src="images/sap-erp-logo.png" alt="SAP ERP Logo"> -->
+              <h3>SAP ERP</h3>
+              <p>Enterprise Resource Planning software for managing business operations and customer relations.</p>
+          </li>
+          <li>
+              <!-- <img src="images/sap-s4hana-logo.png" alt="SAP S/4HANA Logo"> -->
+              <h3>SAP S/4HANA</h3>
+              <p>An intelligent ERP suite designed to run on SAP HANA, delivering digital transformation.</p>
+          </li>
+          <li>
+              <!-- <img src="images/sap-fiori-logo.png" alt="SAP Fiori Logo"> -->
+              <h3>SAP Fiori</h3>
+              <p>A design system and collection of apps that are simple, responsive, and personalized.</p>
+          </li>
+          <!-- Add more SAP technologies as needed -->
+      </ul>
+  </div>
+</div>
+<div class="accordion">
+    <button class="accordion-item"><span class="icon">🔧</span> Frameworks</button>
+    <div class="accordion-content">
+        <ul>
+            <li>
+                <!-- <img src="images/react-logo.png" alt="React Logo"> -->
+                <h3>React</h3>
+                <p>A JavaScript library for building user interfaces.</p>
+            </li>
+            <li>
+                <!-- <img src="images/angular-logo.png" alt="Angular Logo"> -->
+                <h3>Angular</h3>
+                <p>A platform for building web applications using TypeScript and HTML.</p>
+            </li>
+            <li>
+                <!-- <img src="images/spring-logo.png" alt="Spring Logo"> -->
+                <h3>Spring Framework</h3>
+                <p>A powerful framework for building Java applications.</p>
+            </li>
+            <!-- Add more frameworks as needed -->
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <button class="accordion-item"><span class="icon">☁️</span> Cloud Platforms</button>
+    <div class="accordion-content">
+        <ul>
+            <li>
+                <!-- <img src="images/aws-logo.png" alt="AWS Logo"> -->
+                <h3>AWS (Amazon Web Services)</h3>
+                <p>A comprehensive cloud platform offering computing power, storage, and other functionalities.</p>
+            </li>
+            <li>
+                <!-- <img src="images/azure-logo.png" alt="Azure Logo"> -->
+                <h3>Microsoft Azure</h3>
+                <p>Microsoft's cloud computing service for building, testing, deploying, and managing applications.</p>
+            </li>
+            <!-- Add more cloud platforms as needed -->
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <button class="accordion-item"><span class="icon">💾</span> Databases</button>
+    <div class="accordion-content">
+        <ul>
+            <li>
+                <!-- <img src="images/mysql-logo.png" alt="MySQL Logo"> -->
+                <h3>MySQL</h3>
+                <p>An open-source relational database management system.</p>
+            </li>
+            <li>
+                <!-- <img src="images/mongodb-logo.png" alt="MongoDB Logo"> -->
+                <h3>MongoDB</h3>
+                <p>A document-oriented NoSQL database.</p>
+            </li>
+            <!-- Add more databases as needed -->
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <button class="accordion-item"><span class="icon">📊</span> SAP Technologies</button>
+    <div class="accordion-content">
+        <ul>
+            <li>
+                <!-- <img src="images/sap-erp-logo.png" alt="SAP ERP Logo"> -->
+                <h3>SAP ERP</h3>
+                <p>Enterprise Resource Planning software for managing business operations and customer relations.</p>
+            </li>
+            <li>
+                <!-- <img src="images/sap-s4hana-logo.png" alt="SAP S/4HANA Logo"> -->
+                <h3>SAP S/4HANA</h3>
+                <p>An intelligent ERP suite designed to run on SAP HANA, delivering digital transformation.</p>
+            </li>
+            <li>
+                <!-- <img src="images/sap-fiori-logo.png" alt="SAP Fiori Logo"> -->
+                <h3>SAP Fiori</h3>
+                <p>A design system and collection of apps that are simple, responsive, and personalized.</p>
+            </li>
+            <!-- Add more SAP technologies as needed -->
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <button class="accordion-item"><span class="icon">📱</span> Mobile App Development</button>
+    <div class="accordion-content">
+        <ul>
+            <li>
+                <!-- <img src="images/android-logo.png" alt="Android Logo"> -->
+                <h3>Android Development</h3>
+                <p>Building native mobile applications for Android devices using Kotlin and Java.</p>
+            </li>
+            <li>
+                <!-- <img src="images/ios-logo.png" alt="iOS Logo"> -->
+                <h3>iOS Development</h3>
+                <p>Creating iOS applications with Swift and Objective-C for Apple devices.</p>
+            </li>
+            <!-- Add more mobile app development technologies as needed -->
+        </ul>
+    </div>
+</div>
+
+<div class="accordion">
+    <button class="accordion-item"><span class="icon">🔍</span> PHP Development</button>
+    <div class="accordion-content">
+        <ul>
+            <li>
+                <!-- <img src="images/php-logo.png" alt="PHP Logo"> -->
+                <h3>PHP</h3>
+                <p>A popular general-purpose scripting language that is especially suited to web development.</p>
+            </li>
+            <li>
+               
+                <h3>Laravel</h3>
+                <p>A web application framework with expressive, elegant syntax for PHP.</p>
+            </li>
+            <!-- Add more PHP development technologies as needed -->
+        </ul>
+    </div>
+</div>
+</section>
+
+<section class="hidden section" id="what-we-do" >
+
+  <div class="what-we-do-contaier">
+    <div class="Work-3">
+      <span class="what-we-do-text">What We Do</span>
+    </div> 
+    <div class="main-section-parent">
+<span class="material-symbols-outlined arrow-left">
+  <svg xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 -960 960 960" width="100px" fill="#FFFFFF"><path d="M400-80 0-480l400-400 56 57-343 343 343 343-56 57Z"/></svg>
+        </span>
+      <div class="main-section section-2 effect">
+        <div class="child-main-section" id="cloud">
+          <div class="service disableCursor">
+            <h1>Devops</h1>
+            <p>migrate your </p>
+            <p>technology to cloud</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="cybersecurity">
+          <div class="service disableCursor">
+            <h1>Cybersecurity</h1>
+            <p>Protect your </p>
+            <p>data and systems</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Artificial-Intelligence">
+          <div class="service disableCursor">
+            <h1>Data&
+            </h1>
+
+            <h1>Artificial-Intelligence</h1>
+            <p>Leverage data for insights</p>
+          </div>
+          <!-- <div class="service disableCursor">
+            <h1>Artificial Intelligence</h1>
+            <p>Enhance decision-making with AI</p>
+        </div> -->
+        </div>
+
+        <div class="child-main-section " id="Digital-Engineering">
+          <div class="service disableCursor">
+            <h1>Digital </h1>
+            <h1>Engineering</h1>
+            <p>Innovate with</p>
+            <p>cutting-edge technology</p>
+          </div>
+
+
+        </div>
+
+
+        <div class="child-main-section" id="Manufacturing">
+          <div class="service disableCursor">
+            <h1>Manufacturing</h1>
+            <p>Streamline production</p>
+            <p> processes</p>
+          </div>
+
+        </div>
+
+     
+
+        <div class="child-main-section" id="Enterprise-Platforms">
+          <div class="service disableCursor">
+            <h1>Enterprise </h1>
+            <h1>platforms </h1>
+            <p>Optimize your </p>
+            <p>enterprise systems</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Risk-Management">
+          <div class="service disableCursor">
+            <h1>Finance &</h1>
+            <h1>& Risk Managemen</h1>
+            <p>Manage financial
+
+            </p>
+            <p> risks effectively</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Learning">
+          <div class="service disableCursor">
+            <h1>Learning</h1>
+            <p>Develop skills and knowledge</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Marketing-Experience">
+          <div class="service disableCursor">
+            <h1>Marketing </h1>
+            <h1>& Experience</h1>
+            <p>Enhance customer </p>
+            <p>engagement</p>
+          </div>
+        </div>
+
+      
+
+        <div class="child-main-section" id="Private-Equity">
+          <div class="service disableCursor">
+            <h1>Private Equity</h1>
+            <p>Invest in growth opportunities</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Sales-Commerce" class="perspective">
+          <div class="service disableCursor">
+            <h1>Sales </h1>
+            <h1>& Commerce</h1>
+            <p>Boost sales and </p>
+            <p>streamline commerce</p>
+          </div>
+        </div>
+
+      
+
+        <div class="child-main-section" id="Supply-Chain">
+          <div class="service disableCursor">
+            <h1>Supply Chain</h1>
+            <p>Streamline supply</p>
+            <p> chain operations</p>
+
+          </div>
+        </div>
+
+        
+
+        <div class="child-main-section" id="Talent-Organization">
+          <div class="service disableCursor">
+            <h1>Talent</h1>
+            <h1>& Organization</h1>
+            <p>Develop and manage talent</p>
+          </div>
+        </div>
+   
+
+
+
+        <div class="child-main-section" id="Automotive">
+          <div class="service disableCursor">
+            <h1>Automotive</h1>
+            <p>Drive innovation </p>
+            <p>in automotive</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Banking">
+          <div class="service disableCursor">
+            <h1>Banking</h1>
+            <p>Transform banking services</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Capital-Markets">
+          <div class="service disableCursor">
+            <h1>Capital Markets</h1>
+            <p>Optimize capital </p>
+            <p>market operations</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Chemicals">
+          <div class="service disableCursor">
+            <h1>Chemicals</h1>
+            <p>Innovate in the </p>
+            <p>chemicals industry</p>
+            </p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Communications-Media">
+          <div class="service disableCursor">
+            <h1>Communications</h1>
+            <h1> & Media</h1>
+            <p>Enhance communications</p>
+            <p> and media</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Consumer-Goods-Services">
+          <div class="service disableCursor">
+            <h1>Consumer Goods </h1>
+            <h1>& Services</h1>
+            <p>Improve consumer</p>
+            <p>goods and services</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Energy">
+          <div class="service disableCursor">
+            <h1>Energy</h1>
+            <p>Advance energy solutions</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Health">
+          <div class="service disableCursor">
+            <h1>Health</h1>
+            <p>Innovate in healthcare</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="High-Tech">
+          <div class="service disableCursor">
+            <h1>High Tech</h1>
+            <p>Drive high tech innovations</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Industrial">
+          <div class="service disableCursor">
+            <h1>Industrial</h1>
+            <p>Enhance industrial operations</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Insurance">
+          <div class="service disableCursor">
+            <h1>Insurance</h1>
+            <p>Transform insurance services</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Life-Sciences">
+          <div class="service disableCursor">
+            <h1>Life Sciences</h1>
+            <p>Innovate in life sciences</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Natural-Resources">
+          <div class="service disableCursor">
+            <h1>Natural Resources</h1>
+            <p>Manage natural resources</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Public-Service">
+          <div class="service disableCursor">
+            <h1>Public Service</h1>
+            <p>Enhance public services</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Retail">
+          <div class="service disableCursor">
+            <h1>Retail</h1>
+            <p>Transform retail experiences</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Software-Platforms">
+          <div class="service disableCursor">
+            <h1>Software & Platforms</h1>
+            <p>Optimize software platforms</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Travel">
+          <div class="service disableCursor">
+            <h1>Travel</h1>
+            <p>Enhance travel experiences</p>
+          </div>
+        </div>
+
+        <div class="child-main-section" id="Utilities">
+          <div class="service disableCursor">
+            <h1>Utilities</h1>
+            <p>Innovate in utilities sector</p>
+          </div>
+        </div>
+
+
+      </div>
+    <span class="material-symbols-outlined arrow-right">
+      <svg xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 -960 960 960" width="100px" fill="#FFFFFF"><path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z"/></svg>
+        </span>
+    </div>
+    
+  </div>
+</section>
+ 
+ <section class="hidden section" id="our-clients">
+  <div class="clinet-container">
+    <div class="Work">
+      <h1 class="what-we-do-text">It is our privilege to serve  clients everyday</h1>
+    </div>
+    <div class="clinet">
+      <div class="scroller" data-speed="fast">
+        <ul class="tag-list scroller__inner">
+          <li class="Fire-Filies">
+            <img class="client-img" src="./images/client/client-1.png" width="200px" height="100px">
+          </li>
+          <li class="Piyush-Dance-Academy "width="200px" height="200px">
+              <img class="client-img" src="./images/client/client-2.png" width="200px" height="100px">
+          </li>
+          <li class="Piyush-Dance-Academy">
+            <img class="client-img" src="./images/client/client-3.png" width="200px" height="100px">
+        
+        </li>
+        <li class="Piyush-Dance-Academy">
+          <img class="client-img" src="./images/client/client-4.png" width="200px" height="100px">
+      
+      </li>
+       <li class="Piyush-Dance-Academy">
+          <img class="client-img" src="./images/client/client-5.png" width="200px" height="100px">
+      </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ </section>
+
+    <!-- <div class="Work">
+      <h1 id="Work-2">It is our privilege to serve clinet everyday</h1>
+    </div>
+    <div class="clinet">
+      <div class="scroller" data-speed="fast">
+        <ul class="tag-list scroller__inner">
+          <li>Gaytari Air internationl</li>
+          <li>Piyush Dance Academy</li>
+          <li>Digital Networks</li>
+        </ul>
+      </div>
+    </div> -->
+    <!-- <div class="location">
+      <div class="Country" id="india">
+        <div class="info-container">
+          <div id="India-Time">
+            India :
+          </div>
+
+          <div>
+            <span id="IndiaTime"></span>
+            <span class="localTime"></span>
+          </div>
+        </div>
+        <a href="contact.html" class="contact-us">Contact Us
+
+        </a>
+
+      </div>
+      <div class="Country" id="us">
+        <div class="info-container">
+          <div>
+            United States :
+          </div>
+          <div id="USTime">
+            <span></span>
+            <span class="localTime"></span>
+          </div>
+        </div>
+        <a href="contact.html" class="contact-us">Contact Us
+        </a>
+
+      </div>
+      <div class="Country" id="uk">
+        <div class="info-container">
+          <div>
+            United Kingdom :
+          </div>
+          <div id="UKTime">
+            <span></span>
+            <span class="localTime"></span>
+          </div>
+        </div>
+        <a href="contact.html" class="contact-us">
+          Contact Us
+        </a>
+      </div>
+    </div> -->
+
+    <div class="footer-full">
+
+      <div class="footer-logo">
+        <img src="./images/logo/Touchia logo png.png" class="footer-logo-1">
+      </div>
+      <footer class="footer">
+        <div class="social-media">
+          <a href="https://www.instagram.com/touchiat/?igsh=N3UxeDNsaWc5a280">
+            <img src="./images/footer/Instagram-Glyph-Color-Logo.wine.svg" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61559767552967">
+            <img src="./images/footer/Facebook-f_Logo-Blue-Logo.wine.svg" alt="Facebook">
+          </a>
+          <a href="https://www.linkedin.com/in/touchia-technologies-b95003309/">
+            <img src="./images/footer/LinkedIn-Icon-Black-Logo.wine.svg" alt="LinkedIn">
+          </a>
+        </div>
+        <ul class="About">
+          <li><a href="./who_we_are.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./privacy.html">Privacy</a></li>
+        </ul>
+        
+        <div class="rights">
+          <p>All RIGHTS RESERVED</p>
+          <p>BY TOUCHIA TECHNOLOGIES</p>
+        </div>
+      </footer>
+
+    </div>
+</body>
+
+</html>
